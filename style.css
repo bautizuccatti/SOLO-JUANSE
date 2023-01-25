@@ -37,33 +37,42 @@ a{
 /*!MAIN*/
 
 /*JUANSE X HONKY TONK*/
-#juanse-x-honkytonk{
+#textRemeras{
     padding-top: 30px;
-    width: 10%;
+    width: 100%;
     color: white;
     font-family: Rubik;
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-top: 2px solid rgb(70, 70, 70);
-    border-bottom: 20x solid rgb(70, 70, 70);
-    
+    border-bottom: 2px solid rgb(70, 70, 70);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#honkytonk img{
-    padding-top: 40px;
-    height: 500px;
-}
-
-#honkytonk img:hover{
+#textRemeras:hover{
     transform: scale(1.1);
     transition: all 0.50s;
 }
 
-#honkytonk{
+.center-honky{
     display: flex;
     justify-content: center;
 }
+
+.remeras{
+    display: flex;
+    justify-content: space-around;
+}
+
+.remeras img:hover{
+    transform: scale(1.1);
+    transition: all 0.50s;
+}
+
 
 
 /*FIN JUANSE X HONKY TONK*/
@@ -93,13 +102,14 @@ a{
     color: white;
     font-family: Rubik;
     position: relative;
-    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
     border-top: 2px solid rgb(70, 70, 70);
     border-bottom: 2px solid rgb(70, 70, 70);  
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #discografia:hover{
