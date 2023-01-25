@@ -1,0 +1,185 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*?HEADER*/
+#juanse-header{
+    width: 100%;
+}
+.enlace{
+    width: 33%;
+    font-family: rubik;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 65%;
+    top: 80px;
+}
+
+#logo-juanse{
+   position: absolute;
+   left: 10px;
+   top: 9%;
+}
+/*?FIN HEADER*/
+
+/*TODO: index.html*/
+
+/*!MAIN*/
+
+/*JUANSE X HONKY TONK*/
+#juanse-x-honkytonk{
+    padding-top: 30px;
+    width: 10%;
+    color: white;
+    font-family: Rubik;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#honkytonk img{
+    padding-top: 40px;
+    height: 500px;
+}
+
+#honkytonk img:hover{
+    transform: scale(1.1);
+    transition: all 0.50s;
+}
+
+#honkytonk{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*FIN JUANSE X HONKY TONK*/
+
+/*PROXIMOS SHOWS*/
+.brand-container img{
+    padding-top: 40px;
+    width: 100%;
+}
+/*FIN PROXIMOS SHOWS*/
+
+/*DISCOGRAFIA*/
+.discos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+}
+
+.discos img:hover{
+    transform: scale(1.1);
+    transition: all 0.50s;
+}
+
+#discografia{
+    padding-top: 30px;
+    width: 100%;
+    color: white;
+    font-family: Rubik;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/*DOCUMENTAL*/
+#logo-rocanrol{
+    display: flex;
+    justify-content: center;
+}
+
+#poster{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-poster{
+    color: white;
+    font-family: rubik;
+    justify-content: center;
+    display: flex;
+    margin: 50px 400px;
+    font-size: 25px;
+}
+/*FIN DOCUMENTAL*/
+
+/*!FIN MAIN*/
+
+/** FOOTER*/
+#fondo-footer{
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.red-social{
+    display: flex;
+    justify-content: center;
+}
+
+.red-social li{
+    display: inline-block;
+    margin: 0 80px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.red-social li a{
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.red-social li a:hover{
+    transform: translateY(-3px) scale(1.05);
+}
+/*iconos sueltos*/
+.facebook{
+    color: #3b5998;
+}
+
+.twitter{
+    color: #56cefd ; 
+}
+
+.youtube{
+  color:#c4302b ;  
+}
+
+.instagram{
+    color: #8a3ab9 ;
+}
+
+.spotify{
+    color: #2be36b;
+}
+/*fin iconos sueltos*/
+
+.red-social{
+    position: relative;
+    bottom: 200px;
+}
+
+/**FIN FOOTER*/
+
+/*TODO: discografia.html*/
+
+
+
+
+
+
