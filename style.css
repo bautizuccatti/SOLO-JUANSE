@@ -239,6 +239,10 @@ a{
         transition: all 0.50s;
 }
 
+.shows-container{
+    margin-bottom: 100px;
+}
+
 /*!FIN MAIN*/
 
 /*FIN SHOWS*/
