@@ -63,6 +63,7 @@ a{
     justify-content: space-around;
 }
 
+
 /*FIN JUANSE X HONKY TONK*/
 
 /*PROXIMOS SHOWS*/
@@ -176,7 +177,40 @@ a{
 
 /**FIN FOOTER*/
 
-/*TODO: discografia.html*/
+/*TODO: shows.html*/
+
+/*!MAIN*/
+
+/*SHOWS*/
+
+
+
+.cosquin{
+    color: white;
+    font-family: rubik;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 2px solid rgb(70, 70, 70);
+    border-top: 2px solid rgb(70, 70, 70);
+    padding: 40px 0px;
+}
+
+.cosquin button{
+    color: white;
+    font-family: rubik;
+    font-size: 20px;
+    background-color: black;
+    border-bottom: 2px solid rgb(70, 70, 70);
+    border-top: 2px solid rgb(70, 70, 70);
+    padding: 30px;
+
+}
+
+
+
+
 
 
 
