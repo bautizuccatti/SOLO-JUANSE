@@ -254,6 +254,10 @@ a{
 
 /*!MAIN*/
 
+.tapas-container img{
+    height: 400px;
+}
+
 .discos p{
     color: white;
     font-family: rubik;
