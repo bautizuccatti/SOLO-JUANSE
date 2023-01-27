@@ -11,6 +11,8 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
+
+
 /*?HEADER*/
 #juanse-header{
     width: 100%;
@@ -251,6 +253,90 @@ a{
 /*TODO: discografia.html*/
 
 /*!MAIN*/
+
+.discos p{
+    color: white;
+    font-family: rubik;
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.text-discos{
+    padding-top: 10px;
+}
+
+.text-discos p{
+    padding-left: 10px;
+}
+
+#euforica{
+    border-left: 3px solid rgb(70, 70, 70);
+}
+
+
+.titulo{
+    color: white;
+    font-family: rubik;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.año{
+    color: white;
+    font-family: rubik;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+
+/*DISCOS SUELTOS*/
+.juanito{
+    padding-top: 40px;
+}
+.biograma{
+    padding-top: 40px;
+}
+
+.stereoma{
+    padding-top: 40px;
+}
+
+.biblia{
+    padding-top: 40px;
+}
+
+.pappo{
+    padding-top: 40px;
+}
+
+.rock{
+    padding-top: 40px;
+}
+
+.baldios{
+    padding-top: 40px;
+}
+
+.energia{
+    padding-top: 40px;
+}
+
+.expreso{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*FIN DISCOS SUELTOS*/
+
+
+
+
+
+
 
 
 
