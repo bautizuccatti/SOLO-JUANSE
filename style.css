@@ -91,11 +91,20 @@ a{
     display: flex;
     justify-content: space-around;
     padding-top: 20px ;
+   
+}
+
+.discos img{
+    transition: all 0.8s ease;
 }
 
 .discos img:hover{
     transform: scale(1.1);
-    transition: all 0.50s;
+    transition: all 0.50s;  
+    filter: grayscale(1);
+    transition: all 0.6s ease;
+
+    
 }
 
 #discografia{
@@ -335,6 +344,8 @@ a{
 }
 
 /*FIN DISCOS SUELTOS*/
+
+
 
 
 
