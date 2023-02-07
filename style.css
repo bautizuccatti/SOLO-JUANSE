@@ -24,13 +24,14 @@ a{
     justify-content: space-around;
     position: absolute;
     left: 65%;
-    top: 80px;
+    top: 9%;
 }
 
 #logo-juanse{
    position: absolute;
    left: 10px;
    top: 9%;
+   height: 80px;
 }
 /*?FIN HEADER*/
 
@@ -249,6 +250,7 @@ a{
 .shows button:hover{
         transform: scale(1.1);
         transition: all 0.50s;
+        background-color: rgba(128, 128, 128, 0.24);
 }
 
 .shows-container{
