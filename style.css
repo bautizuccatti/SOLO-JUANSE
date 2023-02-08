@@ -101,11 +101,7 @@ a{
 
 .discos img:hover{
     transform: scale(1.1);
-    transition: all 0.50s;  
-    filter: grayscale(1);
-    transition: all 0.6s ease;
-
-    
+    transition: all 0.50s;    
 }
 
 #discografia{
@@ -122,6 +118,11 @@ a{
     border-bottom: 2px solid rgb(70, 70, 70);  
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.index-discos :hover{
+    filter: grayscale(1);
+    transition: all 0.5s;
 }
 
 #discografia:hover{
