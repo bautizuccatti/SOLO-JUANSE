@@ -190,23 +190,48 @@ a{
 }
 /*iconos sueltos*/
 .facebook{
-    color: #3b5998;
+    color: #1876f260;
 }
 
 .twitter{
-    color: #56cefd ; 
+    color: #1da0f26c ; 
 }
 
 .youtube{
-  color:#c4302b ;  
+  color: #ff000064 ;  
 }
 
 .instagram{
-    color: #8a3ab9 ;
+    color: #9e37b864 ;
 }
 
 .spotify{
-    color: #2be36b;
+    color: #1db9545d;
+}
+/*hover redes sociales iconos*/
+.facebook :hover{
+    color: #1876f2;
+    transition: all 0.3s;
+}
+
+.twitter :hover{
+    color: #1da0f2 ;
+    transition: all 0.3s; 
+}
+
+.youtube :hover{
+  color: #ff0000 ;  
+  transition: all 0.3s;
+}
+
+.instagram :hover{
+    color: #9e37b8 ;
+    transition: all 0.3s;
+}
+
+.spotify :hover{
+    color: #1db954;
+    transition: all 0.3s;
 }
 /*fin iconos sueltos*/
 
